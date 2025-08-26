@@ -1,0 +1,13 @@
+name: bioinfo
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - scikit-learn
+  - perl
+  - pandas
+  - biopython

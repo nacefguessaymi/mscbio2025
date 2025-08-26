@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Nacef Guessaymi <nacefguess@hotmail.com>"]
+channels = ["conda-forge"]
+name = "bioinfo"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+seaborn = "*"
+jupyterlab = "*"
+scikit-learn = "*"
+perl = "*"
+pandas = "*"
+biopython = "*"
