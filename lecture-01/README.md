@@ -26,7 +26,7 @@ The documentation for pixi can be found [here.](https://pixi.sh/latest/)
 The guide for installing pixi in your machine can be found [here.](https://pixi.sh/latest/installation/)
 After installation, a pixi environment can be initialized using
 ```bash
-pixi initi  
+pixi init  
 ```
 There will be more information how this was used in this repository will follow.
 ### Windows Subsystem for Linux
@@ -37,7 +37,7 @@ Many times pixi fails trying to resolve the dependency for windows and I remove 
 Windows can still have access to my packages if they use WSL.
 ### Setting Up the Environment
 The instructors for this class have graciously provided an `environments.yml` to resolve our dependencies.
-Using `curl` the vile can be downloaded.
+Using `curl` the file can be downloaded.
 ```bash
 curl https://mscbio2025-2025.github.io/files/environment.yml -o ./environment.yml
 ```
@@ -46,6 +46,9 @@ In my case, the command was
 ```bash
 pixi init --input ./environment.yml ../
 ```
+The YAML file for this lecture was downloaded to this directory, but the environment needs to be set up in the base directory for the repo one directory up.
+To test the environment I wrote a short python script that calls the version of all the packages after import.
+This was 
 #### Automation Script
 This was all put in a bash script in this directory `./lecture-01-environment-setup.sh` that can be used to automate this.
 #### Testing the Environment
@@ -60,6 +63,6 @@ print('matplotlib', matplotlib.__version__)
 ```
 ##### Jupyter Notebook
 This is saved in `./lecture-01-jupyter-test.ipynb`.
-#### Python Script
+##### Python Script
 I also decided to test the environment in a python file.
 This is provided in `./lecture-01-test.py`.

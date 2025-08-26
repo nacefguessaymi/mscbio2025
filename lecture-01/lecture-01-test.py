@@ -8,12 +8,13 @@ import jupyterlab
 import sklearn
 import pandas
 import Bio
+import logging
 
-print("numpy", numpy.__version__)
-print("scipy", scipy.__version__)
-print("matplotlib", matplotlib.__version__)
-print("seaborn", seaborn.__name__)
-print("jupyterlab", jupyterlab.__version__)
-print("sklearn", sklearn.__version__)
-print("pandas", pandas.__version__)
-print("Bio", Bio.__version__)
+logging.info("numpy", numpy.__version__)
+logging.info("scipy", scipy.__version__)
+logging.info("matplotlib", matplotlib.__version__)
+logging.info("seaborn", seaborn.__name__)
+logging.info("jupyterlab", jupyterlab.__version__)
+logging.info("sklearn", sklearn.__version__)
+logging.info("pandas", pandas.__version__)
+logging.info("Bio", Bio.__version__)
