@@ -1,0 +1,21 @@
+/Users/Nacef/repos/mscbio2025/lecture-02/demo_project
+--- contents ---
+data
+results
+
+./data:
+dummy.txt
+
+./results:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   162  100   162    0     0   6630      0 --:--:-- --:--:-- --:--:--  6750
+--- directory tree ---
+.
+├── data
+│   └── Spellman.csv
+├── interim
+│   └── Spellman.csv
+└── results
+
+4 directories, 2 files
