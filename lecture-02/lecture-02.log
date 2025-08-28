@@ -1,4 +1,12 @@
+Running jupyter notebook. Contents are saved in the notebook.
+[NbConvertApp] Converting notebook ./lecture-02-notebook.ipynb to notebook
+[NbConvertApp] Writing 2476 bytes to lecture-02-notebook.ipynb
+Making directories
+Making example text file.
+Changing directory to the demo project.
+Printing absolute path of the current directory.
 /Users/Nacef/repos/mscbio2025/lecture-02/demo_project
+Showing the contents
 --- contents ---
 data
 results
@@ -7,9 +15,17 @@ results
 dummy.txt
 
 ./results:
+Going back up to the parent directory
+/Users/Nacef/repos/mscbio2025/lecture-02
+Making the other directory
+Changing into that directory
+Making the subdirectories
+Downloading the csv file
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   162  100   162    0     0   6630      0 --:--:-- --:--:-- --:--:--  6750
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   162  100   162    0     0   6148      0 --:--:-- --:--:-- --:--:--  6230
+Copying the file
+Showing the directory tree
 --- directory tree ---
 .
 ├── data

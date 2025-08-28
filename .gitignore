@@ -4,3 +4,9 @@
 
 # csvs
 *.csv
+
+# the ds store directories
+.DS_Store
+
+# the jupyter temp files
+.ipynb_checkpoints/
