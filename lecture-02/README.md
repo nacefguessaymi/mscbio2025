@@ -8,7 +8,7 @@ In Windows based systems the root directory is `C:\`.
 In WSL, the `C:\` drive is mounted at a particular path.
 ### Tree
 I already had tree installed on my machine using `brew install tree` on a MacOS.
-My linux machine was easier `sudo pacman -S tree`.
+My linux machine was easier `sudo pacman -Syu tree`.
 My peers had difficulty installing it on their Windows machins with WSL as `sudo apt install tree` was giving an error.
 I believe Ubuntu has changed the package manager.
 ## Filetypes
