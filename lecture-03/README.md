@@ -72,3 +72,17 @@ The `.` character matches any character, similar to the `*` wildcard in bash.
 The `.*` matches an character repeated any number of times.
 The `\.` escape character treats special characters literally, rather than treating the period as a wildcard.
 ### awk
+The `awk` command allows for pattern scanning and processing of strings in bash.
+The general command is
+```bash
+awk 'optional condition {awk program} file'
+```
+The `-Fx` flag sets `x` as the delimiter, with the default being a whitespace.
+The `NF` flag counts the number of fields in the current line.
+The `NR` flag gives the current record number.
+The `$0` command gives the full line.
+The `$N` command gives the Nth field.
+## Activity
+The activity asks us for some simple bash manipulation of a file `Spellman.csv` which contains a genome.
+The commands used to answer these questions can be found in `./lecture-03-script.sh`.
+The first question asks for the number of data points in the csv.
