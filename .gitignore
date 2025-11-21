@@ -10,3 +10,6 @@
 
 # the jupyter temp files
 .ipynb_checkpoints/
+
+#FastQC
+FastQC/*
