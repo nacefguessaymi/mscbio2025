@@ -1,0 +1,19 @@
+# Files
+*.gz
+*.fastq
+*.fa
+*.csv
+*.txt*
+*.sam
+*.bam*
+*.html
+*.log
+*.json
+*.parquet
+*.zip
+*.fna
+*.gtf
+*.svg
+*.png
+*.pdf
+*.ht2
